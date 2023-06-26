@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Iris flower classification</title>
+        <meta name="viewport"  content="width=device-width,initial-scale=1.0"    charset="UTF-8">
+        <style>
+            input[type="text"],button
+            {
+                border-radius: 3px;
+                border: 1px solid #ccc;
+
+            }
+        </style>
+    </head>
+
+    <body style="text-align: center;background-color:blueviolet;">
+        <div >
+           <h1 style="color: aliceblue;">Iris flower classification</h1>
+           <div style="background-color:lightblue;"><br><br>
+            <form action="{{url_for('predict')}}" method="post">
+                <h2>Enter flower dimensions</h2>
+                <h3>sepal length :</h3> <input type="text" name="sl"><br>
+                <h3>sepal width :</h3> <input type="text" name="sw"><br>
+                <h3>petal length :</h3> <input type="text" name="pl"><br>
+                <h3>petal width :</h3> <input type="text" name="pw"><br>
+                <br>
+                <button type="submit" style="background-color: chocolate;color: aliceblue;cursor: pointer;">predict</button>
+               
+            </form>
+             <br><br><h2>{{prediction}}</h2><br><br><br><br><br><br><br><br>
+           </div>
+
+        </div>
+    </body>
+
+
+</html>
