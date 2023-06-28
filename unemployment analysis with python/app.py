@@ -75,7 +75,7 @@ with rg:
 
 footer="""
 <br><p> Made by  Devarapu Lokesh </p>
-<a>linkedin</a><br><a>Github</a>"""
+<a href='https://www.linkedin.com/in/devarapu-lokesh-99057225a'>linkedin</a><br><a href='https://github.com/DvpLoki'>Github</a>"""
 
 st.markdown(footer,unsafe_allow_html=True)
 hide_st_style="""
