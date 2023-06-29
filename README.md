@@ -1,5 +1,5 @@
 # OIBSIP
-tasks of oasis infobyte in datascience field
-Task1- Iris Flower Classification
-Task2- Unemployment analysis in india
-Task3- Car price prediction
+Tasks of oasis infobyte in datascience field<br>
+Task1- Iris Flower Classification<br>
+Task2- Unemployment analysis in india<br>
+Task3- Car price prediction<br>
